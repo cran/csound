@@ -1,12 +1,12 @@
-e6cce4f1b436afeb89191cb455402a52 *DESCRIPTION
+8f170caa3973f72c2e81d19eed0eea90 *DESCRIPTION
 87dab15037c414a0f3b77db211b686f0 *NAMESPACE
 3c46b891f343e212d823d26c69082d11 *R/PerformanceAPI.R
-91d1aa22967bb7a4e6686b7a727638f0 *R/aaa.R
-0c36603195e9654929ffe51143b64812 *R/createPerformance.R
+25be2b043f3655c9b4dbcf93f323bbae *R/aaa.R
+cc0aa1a25bfed6a05950a463b92a046e *R/createPerformance.R
 3adbcd9566b959684d90ea943f5c1744 *R/getCsoundError.R
 3e24a787f5e3e39439b4a8ea31f192a8 *R/getHeaderInfo.R
 ddb6d1232c3d7fb9418e73a32d299483 *R/scoreMatrices.R
-a677b7610b27310ab3736073c3e47c30 *R/setCsoundLibrary.R
+35a2c0d75eddc1ad679f1a0b21d5ccea *R/setCsoundLibrary.R
 8f15f2f68dffedf748b7e260a32b4508 *R/writeCsoundScore.R
 3140fe4990dd6281afa580a2ec65fb45 *inst/orc/built-in.orc
 39ed0879e09a9bb368f6866345dca745 *inst/tests/test-csoundlib.R
@@ -15,7 +15,7 @@ bc09d816b4453f1771b25533f097d3b3 *inst/tests/test-load.R
 d9d1517162d04f3f2f3995ae542959f7 *inst/tests/test-scorematrices.R
 89911ec02e1ca9cacbf0b917f01aed9d *inst/tests/test-writescore.R
 c9cf591105a355f7c151fe7721a00c9d *man/PerformanceAPI.Rd
-ed73b0059da3290e2e3a605410b47d67 *man/createPerformance.Rd
+3c8a3220af0de49edf99045b320527a8 *man/createPerformance.Rd
 e7de22248580daffaf59649b9de24df2 *man/getCsoundError.Rd
 aac8dabe333ed69f003aa2f183388e4c *man/getHeaderInfo.Rd
 85610b419270e1ef4ce3ba1e205d8af2 *man/scoreMatrices.Rd

@@ -24,7 +24,7 @@
 ##' 
 ##' @export
 ##' @rdname createPerformance
-##' % Parameter list exported to sonopts.R on Friday, December 16, 2011
+## Parameter list exported to sonopts.R on Friday, December 16, 2011
 ##' @param i A list of \code{matrix} objects. Each \code{matrix} is
 ##' the instructions for a single instrument. Each row of the
 ##' \code{matrix} is an \code{i} statement, which instructs Csound to
@@ -67,7 +67,7 @@
 ##' @seealso \code{\link{scoreMatrices}()} for easy creation of the
 ##' \code{i} argument to \code{createPerformance}
 ##' 
-##' @examples \dontrun{
+##' @examples 
 ##' sndcheck <- scoreMatrices(5, 5)
 ##' sndcheck$FM[, "start"] <- 0:4
 ##' sndcheck$FM[, "dur"] <- 0.5
@@ -84,12 +84,12 @@
 ##' sndcheck$subtractive[, c("attkp", "decayp")] <- 0.01
 ##' sndcheck$subtractive[, "cntr"] <- (5:1)*500
 ##' sndcheck$subtractive[, "bw"] <- (5:1)*500
-##' createPerformance(sndcheck)}
+##' \dontrun{createPerformance(sndcheck)}
 createPerformance <- function(i = NULL, f = NULL,
                               orcfile = "built-in.orc",
                               scorefile=NULL,
                               out = "dac",
-                              realTime = (out == "dac"),
+                              realTime = FALSE,
                               finishPerformance = TRUE,
                               suppressDisplays = TRUE,
                               moreflags = NULL) {
